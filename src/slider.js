@@ -10,11 +10,11 @@ const renderImages = [
     "title":"imagem1",
     "subtitle":"imagem1"
 },
-// {
-//     "image":require("./imagens/dino3.jpeg"),
-//     "title":"imagem1",
-//     "subtitle":"imagem1"
-// },
+{
+     "image":require("./imagens/dino3.jpeg"),
+     "title":"imagem1",
+     "subtitle":"imagem1"
+ },
 // {
 //     "image":require("./imagens/dino4.jpeg"),
 //     "title":"imagem1",

@@ -60,3 +60,6 @@ width: 100vw;
     border: 2px solid;
     max-height: 30rem !important;
 }
+.nav{
+    text-decoration: none;
+}
