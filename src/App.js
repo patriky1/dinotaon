@@ -17,12 +17,12 @@ function App() {
 <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container fluid>
-          <a> <img src={logo} height="40px" width="40px" alt='...'></img></a>
-          <Navbar.Brand href="/">Dino Ta On</Navbar.Brand>
+          <a href='#home'> <img src={logo} height="40px" width="40px" alt='...'></img></a>
+          <Navbar.Brand>Dino Ta On</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link  href="/">A CIDADE</Nav.Link>
-            <Nav.Link  href="/">EVENTOS</Nav.Link>
-            <Nav.Link  href="/">NOTICIAS</Nav.Link>
+            <Nav.Link>A CIDADE</Nav.Link>
+            <Nav.Link>EVENTOS</Nav.Link>
+            <Nav.Link>NOTICIAS</Nav.Link>
           </Nav>
         </Container >
       </Navbar>
