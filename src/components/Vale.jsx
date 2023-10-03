@@ -97,9 +97,9 @@ function Vale() {
           <Col lg={6} className="imagens">
             <Carousel className="carousel2">
               {renderImages.map((slide) => (
-                <Carousel.Item key={slide.image} interval={1000}>
+                <Carousel.Item key={slide.image} interval={2000}>
                   <img
-                    
+                     style={{width:"100vw"}}
                     src={slide.image}
                     alt="slides"
                   />
