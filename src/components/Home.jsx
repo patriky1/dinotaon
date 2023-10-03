@@ -1,6 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import fundo from "../imagens/fundo.jpeg";
+import "./Home.css"
+import { Link } from "react-router-dom";
 
 
 function Home() {
@@ -15,6 +17,7 @@ function Home() {
           é um destino único que combina história, cultura, esportes e um rico
           patrimônio paleontológico.
         </h2> */}
+        <Link to="/segundo">
         <Button
           href="#eventos"
           variant="primary"
@@ -24,6 +27,7 @@ function Home() {
           {" "}
           saiba mais
         </Button>
+        </Link>
       </div>
     </>
   );

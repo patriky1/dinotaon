@@ -1,65 +1,71 @@
-.grid{
-    position: relative;
+.grid {
+  position: relative;
 }
-.background{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 92.8vh;
-    position: relative;
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 92.8vh;
+  position: relative;
 }
-.textogrid{
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
-    backdrop-filter: blur(16px) saturate(180%);
+
+.textogrid {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   border: 1px solid transparent;
   border-radius: 5%;
-    
 }
-.textogrid1{
-    width: 55%;
-    position: absolute;
-    top: 30%;
-    left: 34%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: verdana;
-    text-align: justify;
-    font-size: 30px;
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
-    text-indent: 3rem;
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    border: 1px solid transparent;
-    
-    
+
+.textogrid1 {
+  width: 55%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: verdana;
+  text-align: justify;
+  font-size: 30px;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  text-indent: 3rem;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid transparent;
 }
-.buttonone{
-    position: absolute;
-    top: 70%;
-    left: 7%;
+
+.buttonone {
+  position: absolute;
+  top: 70%;
+  left: 7%;
 }
-.session2{
-    display: flex;
-    gap: 2rem;
-    background: red;
-    max-height: 10%;
+
+.session2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: red;
+  max-height: 10%;
 }
-.fristcarousel{
-max-height: 10%;
-width: 99vw;
-margin: 0;
+
+.fristcarousel {
+  max-height: 10%;
+  width: 99vw;
+  margin: 0;
 }
-.carousel img{
-    border: 2px solid;
-    max-height: 30rem !important;
+
+.carousel img {
+  border: 2px solid;
+  max-height: 30rem !important;
 }
-.nav{
-    text-decoration: none;
+
+.nav {
+  text-decoration: none;
 }

@@ -1,5 +1,6 @@
 import React from "react";
-import "./Igrejas.css";
+import "./City.css";
+
 import NavbarContainer from "./Navbar";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -74,8 +75,9 @@ function Igrejas() {
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img src={imgIgreja} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={imgIgreja} width="600px" height="400px" alt="sousa"></img>
             <img
+              className="imagens"
               src={imgIgreja1}
               width="600px"
               height="600px"
@@ -144,9 +146,9 @@ function Igrejas() {
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img src={IgrejaBJ} width="600px" height="400px" alt="sousa"></img>
-            <img src={IntBJ} width="600px" height="400px" alt="sousa"></img>
-            <img src={prBJ} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={IgrejaBJ} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={IntBJ} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={prBJ} width="600px" height="400px" alt="sousa"></img>
           </Col>
         </Row>
       </Container>

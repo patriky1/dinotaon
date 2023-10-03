@@ -9,6 +9,7 @@
 }
 .imagens{
     position:relative;
+    width: 100%;
 }
 .carousel2{
     top: 10%;
@@ -17,3 +18,43 @@
     color: white;
     text-shadow: 1px 1px 1px #000
 }
+
+
+/* Media query para a classe .ConteudoCity */
+@media screen and (max-width: 600px) {
+    .ConteudoCity {
+      width: 100%;
+      font-size: 8%;
+      text-indent: 1rem;
+    }
+  }
+  
+  /* Media query para a classe .textCity */
+  @media screen and (max-width: 600px) {
+    .textCity {
+      font-size: 16px;
+    }
+  }
+  
+  /* Media query para a classe .imagens */
+  @media screen and (max-width: 600px) {
+    .imagens {
+      position: static;
+      
+    }
+  }
+  
+  /* Media query para a classe .carousel2 */
+  @media screen and (max-width: 600px) {
+    .carousel2 {
+      top: 5%;
+    }
+  }
+  
+  /* Media query para a classe .textdecor */
+  @media screen and (max-width: 600px) {
+    .textdecor {
+      color: white;
+      text-shadow: none;
+    }
+  }

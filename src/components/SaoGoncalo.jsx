@@ -61,8 +61,8 @@ function SaoGoncalo() {
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img src={imgSG} width="600px" height="400px" alt="sousa"></img>
-            <img src={imggruta} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={imgSG} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={imggruta} width="600px" height="400px" alt="sousa"></img>
           </Col>
         </Row>
       </Container>

@@ -43,7 +43,7 @@ function MemorialAM() {
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img src={MAM} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={MAM} width="600px" height="400px" alt="sousa"></img>
             
           </Col>
         </Row>

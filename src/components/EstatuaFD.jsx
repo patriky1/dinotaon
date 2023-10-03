@@ -47,8 +47,8 @@ function EstatuaFD() {
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img src={imgFD} width="600px" height="400px" alt="sousa"></img>
-            <img src={imgFD2} width="600px" height="600px" alt="sousa"></img>
+            <img className="imagens" src={imgFD} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={imgFD2} width="600px" height="600px" alt="sousa"></img>
           </Col>
         </Row>
       </Container>

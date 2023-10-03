@@ -48,8 +48,9 @@ export function Page2() {
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img src={imgCity}  width="600px"  height="400px" alt="sousa"></img>
+            <img className="imagens" src={imgCity}  width="600px"  height="400px" alt="sousa"></img>
             <video
+              className="imagens"
               src={VideoSousa}
               width="600px"
               height="400px"

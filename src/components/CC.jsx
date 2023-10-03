@@ -45,8 +45,8 @@ function CC() {
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img src={Cc} width="600px" height="400px" alt="sousa"></img>
-            <img src={Cc1} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={Cc} width="600px" height="400px" alt="sousa"></img>
+            <img className="imagens" src={Cc1} width="600px" height="400px" alt="sousa"></img>
           </Col>
         </Row>
       </Container>

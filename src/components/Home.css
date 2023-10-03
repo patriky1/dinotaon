@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+    .textogrid{
+        position: absolute;
+      font-size: 30px;
+      width: 100%;
+      left: 55%;
+    }
+}
