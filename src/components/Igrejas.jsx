@@ -18,7 +18,7 @@ function Igrejas() {
       <Container fluid className="mt-5 ">
         <Row>
           <Col lg={6} className="ConteudoCity">
-            <h1 className="textTitle">RELIGIÃO</h1>
+            <h1 className="textTitle">CENTROS RELIGIOSOS</h1>
             <p className="textCity">
               {" "}
               Seja bem-vindo a uma jornada espiritual e arquitetônica nas ruas

@@ -12,6 +12,10 @@ import { Eventos } from './components/Events';
 import { News } from './components/News';
 import Vale from './components/Vale';
 import Igrejas from './components/Igrejas';
+import Cc from './components/CC';
+import SaoGoncalo from './components/SaoGoncalo';
+import MemorialAM from './components/MemorialAM';
+import EstatuaFD from './components/EstatuaFD';
 
 
 
@@ -39,6 +43,22 @@ const router = createBrowserRouter([
   {
     path: "/igrejas",
     element: <Igrejas/>,
+  },
+  {
+    path: "/centroc",
+    element: <Cc/>,
+  },
+  {
+    path: "/SGoncalo",
+    element: <SaoGoncalo/>,
+  },
+  {
+    path: "/memorial",
+    element: <MemorialAM/>,
+  },
+  {
+    path: "/EstFD",
+    element: <EstatuaFD/>,
   },
 
 ]);

@@ -1,10 +1,11 @@
+import { Button } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from 'react-router-dom';
 
 const renderImages = [
 
 {
-    "image":"https://upload.wikimedia.org/wikipedia/commons/0/06/Vale_dos_Dinossauros%2C_Sousa%2C_Para%C3%ADba.jpg",
+    "image":require("./imagens/entrada.jpeg"),
     "title":"VALE DOS DINOSSAUROS",
      route: '/vale',
     
@@ -14,10 +15,30 @@ const renderImages = [
      "title":"IGREJA MATRIZ",
      route: '/igrejas',
  },
- {
+{
   "image":require("./imagens/igrejaBJ.jpg"),
   "title":"IGREJA BOM JESUS",
    route: '/igrejas',
+},
+{
+  "image":require("./imagens/Cc.jpg"),
+  "title":"CENTRO CULTURAL",
+   route: '/centroc',
+},
+{
+  "image":require("./imagens/SG.jpg"),
+  "title":"SÃO GONÇALO",
+   route: '/SGoncalo',
+},
+{
+  "image":require("./imagens/MAM.jpeg"),
+  "title":"MEMORIAL ANTÔNIO MARIZ",
+   route: '/memorial',
+},
+{
+  "image":require("./imagens/FREIDM.jpeg"),
+  "title":"ESTÁTUA FREI DAMIÃO",
+   route: '/EstFD',
 },
 
 
@@ -29,11 +50,11 @@ function Slider() {
       {renderImages.map((slide) => (
         <Carousel.Item key={slide.image}>
           <img 
-            style={{width:"100vw",objectFit:"inherit"}}
+            style={{width:"100vw"}}
            src={slide.image} 
             alt="First slide" />
           <Carousel.Caption>
-          <Link className='nav-link' to={slide.route}><h5>{slide.title}</h5></Link>
+          <Link className='nav-link' to={slide.route}><Button>{slide.title}</Button></Link>
             
             
           </Carousel.Caption>
