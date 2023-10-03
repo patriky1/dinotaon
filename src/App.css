@@ -11,7 +11,7 @@
 }
 .textogrid{
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 20%;
     transform: translate(-50%, -50%);
     color: white;
@@ -25,7 +25,7 @@
 .textogrid1{
     width: 55%;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 34%;
     transform: translate(-50%, -50%);
     color: white;

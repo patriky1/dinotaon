@@ -1,40 +1,41 @@
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from 'react-router-dom';
+
 const renderImages = [
-//   {
-//     "image": require("./imagens/fundo.png"),
-//     "title":"imagem1",
-//     "subtitle":"imagem1"
-// },
+
 {
     "image":"https://upload.wikimedia.org/wikipedia/commons/0/06/Vale_dos_Dinossauros%2C_Sousa%2C_Para%C3%ADba.jpg",
-    "title":"imagem1",
-    "subtitle":"imagem1"
+    "title":"VALE DOS DINOSSAUROS",
+     route: '/vale',
+    
 },
 {
-     "image":require("./imagens/dino3.jpeg"),
-     "title":"imagem1",
-     "subtitle":"imagem1"
+     "image":require("./imagens/igreja.jpg"),
+     "title":"IGREJA MATRIZ",
+     route: '/igrejas',
  },
-// {
-//     "image":require("./imagens/dino4.jpeg"),
-//     "title":"imagem1",
-//     "subtitle":"imagem1"
-// }
+ {
+  "image":require("./imagens/igrejaBJ.jpg"),
+  "title":"IGREJA BOM JESUS",
+   route: '/igrejas',
+},
+
 
 ]
 
-function Slider({slides}) {
+function Slider() {
   return (
     <Carousel className="fristcarousel" >
       {renderImages.map((slide) => (
         <Carousel.Item key={slide.image}>
           <img 
-            style={{width:"99vw",objectFit:"cover"}}
+            style={{width:"100vw",objectFit:"inherit"}}
            src={slide.image} 
             alt="First slide" />
           <Carousel.Caption>
-            <h5>{slide.title}</h5>
-            <p>{slide.subtitle}</p>
+          <Link className='nav-link' to={slide.route}><h5>{slide.title}</h5></Link>
+            
+            
           </Carousel.Caption>
         </Carousel.Item>
       ))}

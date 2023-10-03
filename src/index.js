@@ -10,6 +10,10 @@ import {
 import { Page2 } from './components/City';
 import { Eventos } from './components/Events';
 import { News } from './components/News';
+import Vale from './components/Vale';
+import Igrejas from './components/Igrejas';
+
+
 
 const router = createBrowserRouter([
   {
@@ -27,6 +31,14 @@ const router = createBrowserRouter([
   {
     path: "/news",
     element: <News/>,
+  },
+  {
+    path: "/vale",
+    element: <Vale/>,
+  },
+  {
+    path: "/igrejas",
+    element: <Igrejas/>,
   },
 
 ]);

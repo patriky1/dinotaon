@@ -1,0 +1,19 @@
+.ConteudoCity{
+    width: 50%;
+    text-align: justify;
+    font-size: 10%;
+    text-indent: 3rem;
+}
+.textCity{
+    font-size: 20px;
+}
+.imagens{
+    position:relative;
+}
+.carousel2{
+    top: 10%;
+}
+.textdecor{
+    color: white;
+    text-shadow: 1px 1px 1px #000
+}
