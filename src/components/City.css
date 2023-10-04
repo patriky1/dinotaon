@@ -7,10 +7,7 @@
 .textCity{
     font-size: 20px;
 }
-.imagens{
-    position:relative;
-    width: 100%;
-}
+
 .carousel2{
     top: 10%;
 }
@@ -39,7 +36,8 @@
   /* Media query para a classe .imagens */
   @media screen and (max-width: 600px) {
     .imagens {
-      position: static;
+      position:relative;
+    width: 100%;
       
     }
   }

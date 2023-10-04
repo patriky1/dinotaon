@@ -50,7 +50,7 @@ function Slider() {
       {renderImages.map((slide) => (
         <Carousel.Item key={slide.image}>
           <img 
-            style={{width:"100vw"}}
+            style={{width:"100vw",objectFit:"inherit"}}
            src={slide.image} 
             alt="First slide" />
           <Carousel.Caption>
