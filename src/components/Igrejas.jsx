@@ -20,7 +20,7 @@ function Igrejas() {
         <Row>
           <Col lg={6} className="ConteudoCity">
             <h1 className="textTitle">CENTROS RELIGIOSOS</h1>
-            <p className="textCity">
+            <p className="textCity" >
               {" "}
               Seja bem-vindo a uma jornada espiritual e arquitetônica nas ruas
               de Sousa, na acolhedora Paraíba. Esta cidade encantadora é um
@@ -32,7 +32,7 @@ function Igrejas() {
             <h3 className="textTitle ">
               Igreja Matriz de Nossa Sra. dos Remédios
             </h3>
-            <p className="textCity ">
+            <p className="textCity" >
               Localizada na praça Bento Freire, mais conhecida como Praça da
               Matriz na cidade de Sousa-PB, teve sua construção iniciada em 1814
               pelo então vigário Luis José Correia de Sá e concluída em 1884. No
@@ -83,6 +83,7 @@ function Igrejas() {
               height="600px"
               alt="sousa"
             ></img>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31698.45663811373!2d-38.2823313374944!3d-6.73233975540068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45c07799e1e5f%3A0x34b5768f68aaaecf!2sIgreja%20Matriz%20de%20Nossa%20Senhora%20dos%20Rem%C3%A9dios!5e0!3m2!1spt-BR!2sbr!4v1696796095346!5m2!1spt-BR!2sbr" width="410" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="maps"></iframe>
           </Col>
         </Row>
         <Row>

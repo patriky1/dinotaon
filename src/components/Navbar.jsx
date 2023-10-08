@@ -2,14 +2,15 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar  from 'react-bootstrap/Navbar';
-import logo from "../imagens/logo.png"
+import logo from "../imagens/logo.png";
 import { Link } from 'react-router-dom';
+import "../App.css"
 
 function NavbarContainer () {
  
     return (
     <>
-        <Navbar bg="dark" data-bs-theme="dark">
+        <Navbar bg="dark" data-bs-theme="dark" fixed="top" style={{paddingBottom: "1px"}} >
         <Container fluid>
           <a href='#home'> <img src={logo} height="40px" width="40px"  alt='...'></img></a>
           

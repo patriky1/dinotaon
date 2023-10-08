@@ -105,7 +105,7 @@ function Vale() {
                   />
                   <Carousel.Caption className="textdecor">
                     <h5 className="textdecor">{slide.title}</h5>
-                    <p className="textdecor">{slide.subtitle}</p>
+                    
                   </Carousel.Caption>
                 </Carousel.Item>
               ))}
