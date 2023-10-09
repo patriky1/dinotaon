@@ -12,23 +12,20 @@ export function Page2() {
       <NavbarContainer />
       <Container fluid className="mt-5">
         <Row>
-        <h1 className="textTitle">A Cidade</h1>
-        <p className="cardImage">
-          <img className="Aspas" alt="aspas" src={aspas}></img>
-          <br></br>
-          <p className="Apresentation">
+          <h1 className="textTitle">A Cidade</h1>
+          <p className="cardImage">
+            <img className="Aspas" alt="aspas" src={aspas}></img>
+            <br></br>
+            <p className="Apresentation">
               Bem-vindo à encantadora cidade de Sousa, um tesouro no coração da
               Paraíba!<br></br> Sousa, carinhosamente conhecida como "Terra dos
               Dinossauros", é um destino único que combina história, cultura,
               esportes e um rico patrimônio paleontológico.
-              </p>
             </p>
-
+          </p>
         </Row>
         <Row>
           <Col lg={6} className="ConteudoCity">
-            
-            
             <p className="textCity">
               <span className="highlight">Fundada em 1854</span>, Sousa é uma
               das cidades mais antigas do interior da Paraíba. Seu centro
@@ -76,15 +73,22 @@ export function Page2() {
             <video
               className="imagens"
               src={VideoSousa}
-              width="800px"
+              width="800px" 
               height="auto"
               alt="Vídeo de Sousa"
               autoPlay
               muted
               loop
             ></video>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.3070761897397!2d-38.2643066249001!3d-6.732340193263781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45eed2deb7a57%3A0x711b0ac0770d555b!2sVale%20dos%20Dinossauros!5e0!3m2!1spt-BR!2sbr!4v1696793815220!5m2!1spt-BR!2sbr" width="410" height="300"  allowfullscreen="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="maps"></iframe>
-            
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.081447843049!2d-38.23533012031097!3d-6.759922775798044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45b8f7960d423%3A0x59341a5e4cf7045e!2sSousa%2C%20Para%C3%ADba%20-%20BR!5e0!3m2!1spt-BR!2sbr!4v1696876675920!5m2!1spt-BR!2sbr"
+              width="410"
+              height="300"
+              allowfullscreen="0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="maps"
+            ></iframe>
           </Col>
         </Row>
       </Container>

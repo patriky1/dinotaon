@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
 import NavbarContainer from "./Navbar";
-import MAM from "../imagens/MAM.jpeg"
+import MAM from "../imagens/MAM.jpeg";
 
 import React from "react";
 
@@ -39,12 +39,32 @@ function MemorialAM() {
               o Memorial Antônio Mariz é um destino imperdível ao visitar Sousa,
               proporcionando uma oportunidade única de conhecer mais sobre um
               dos grandes personagens da Paraíba e sua influência na região.
-              <br></br><br></br><br></br>
+              <br></br>
+              <br></br>
+              <br></br>
             </p>
           </Col>
-          <Col lg={6} className="imagens">
-            <img className="imagens" src={MAM} width="600px" height="400px" alt="sousa"></img>
-            
+          <Col lg={6} className="imagemM">
+            <img
+              className="imagemM"
+              src={MAM}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <div>
+              <iframe
+              title="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.0843509123983!2d-38.23436102500508!3d-6.75956859323707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45bf87b8bf1f3%3A0xdc35ad7cc58a765f!2sMemorial%20Ant%C3%B4nio%20Mariz!5e0!3m2!1spt-BR!2sbr!4v1696876016474!5m2!1spt-BR!2sbr"
+                width="600px"
+                height="400px"
+                style={{marginLeft:"6%"}}
+                allowfullscreen="0"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                className="mapAm"
+              ></iframe>
+            </div>
           </Col>
         </Row>
       </Container>
