@@ -52,7 +52,7 @@ function Slider() {
           />
           <Carousel.Caption>
             <Link className='nav-link' to={slide.route}>
-              <Button variant="primary">{slide.title}</Button>
+              <Button variant="dark" size="lg">{slide.title}</Button>
             </Link>
           </Carousel.Caption>
         </Carousel.Item>

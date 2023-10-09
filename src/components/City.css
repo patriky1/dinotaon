@@ -3,6 +3,7 @@
     text-align: justify;
     font-size: 10%;
     text-indent: 3rem;
+    margin-top: 5%;
 }
 .textCity{
     font-size: 20px;
@@ -70,7 +71,8 @@
   font-size: 32px;
   font-weight: bold;
   color: #333;
-  margin-bottom: 20px;
+  margin-top: 2%;
+  
 }
 
 .textCity {

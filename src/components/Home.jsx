@@ -43,16 +43,19 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      <Container style={{ background: "#f9e4a3" }} fluid>
+      <Container style={{ background: "#edf1f4", border:"2px solid black"}} fluid>
         <Row>
           <Col className="d-flex justify-content-center" >
             <Link to="/vale">
             <Card className="carddino" style={{ width: "10rem", border: "none" , background:"transparent"}}>
+            
               <Card.Img
                 variant="top"
                 src="https://cdn-icons-png.flaticon.com/512/1939/1939463.png"
               />
+              
             </Card>
+           
             </Link>
           </Col>
           <Col className="d-flex justify-content-center">
