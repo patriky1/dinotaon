@@ -1,8 +1,23 @@
 @media screen and (max-width: 600px) {
     .textogrid{
-        position: absolute;
       font-size: 30px;
       width: 100%;
-      left: 55%;
+      
     }
+}
+.alinharButton{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+.fontText{
+  font-size: 150px;
+}
+@media screen and (max-width: 600px) {
+  .fontText{
+    font-size: 80px;
+  }
+  .carddino{
+    max-width: 90px;
+  }
 }
