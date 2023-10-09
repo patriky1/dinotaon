@@ -26,50 +26,64 @@ function Home() {
               passando, na oportunidade, a denominar-se Sousa, conhecida hoje
               por “cidade sorriso”.
             </p>
-              <Link  style={{textDecoration:"none"}} to="/segundo" class="alinharButton" >
-            
-              <Button
-                size="lg"
-                variant="dark"
-                className="buttonone"
-              >
+            <Link
+              style={{ textDecoration: "none" }}
+              to="/segundo"
+              class="alinharButton"
+            >
+              <Button size="lg" variant="dark" className="buttonone">
                 saiba mais
               </Button>
-            
-              </Link>
+            </Link>
           </Col>
           <Col lg={7} xs={12} className="Lateral">
             <img className="background" src={fundo} alt="..."></img>
           </Col>
         </Row>
       </Container>
-      <Container style={{ background: "#edf1f4", border:"2px solid black"}} fluid>
+      <Container
+        style={{ background: "#edf1f4", border: "2px solid black" }}
+        fluid
+      >
         <Row>
-          <Col className="d-flex justify-content-center" >
-            <Link to="/vale">
-            <Card className="carddino" style={{ width: "10rem", border: "none" , background:"transparent"}}>
+          <Col className="d-flex justify-content-center">
+            <Link to="/vale" style={{ textDecoration: "none" }}>
+              <Card
+                className="carddino"
+                style={{
+                  width: "10rem",
+                  border: "none",
+                  background: "transparent",
+                }}
+              >
+                <Card.Img
+                  variant="top"
+                  src="https://cdn-icons-png.flaticon.com/512/1939/1939463.png"
+                />
+                <Card.Title className="cardTitle">TURISMO</Card.Title>
+              </Card>
+            </Link>
+          </Col>
+          <Col className="d-flex justify-content-center">
+            <Link
+              to="/igrejas"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              <span class="material-symbols-outlined fontText">church</span>
+              <Card.Title className="cardTitle">CULTURA</Card.Title>
+            </Link>
+          </Col>
+
+          <Col className="d-flex justify-content-center">
+            <Link
+              to="/centroc"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              <span class="material-symbols-outlined fontText">festival</span>
+              <Card.Title className="cardTitle">EVENTOS</Card.Title>
+            </Link>
             
-              <Card.Img
-                variant="top"
-                src="https://cdn-icons-png.flaticon.com/512/1939/1939463.png"
-              />
-              
-            </Card>
-           
-            </Link>
           </Col>
-          <Col className="d-flex justify-content-center">
-          <Link to="/igrejas" style={{color:"black"}}>
-            <span class="material-symbols-outlined fontText">church</span>
-            </Link>
-          </Col>
-          
-          <Col className="d-flex justify-content-center">
-          <Link to="/centroc" style={{color:"black"}}>
-            <span class="material-symbols-outlined fontText">festival</span>
-            </Link>
-          </Col>
-          
         </Row>
       </Container>
     </>

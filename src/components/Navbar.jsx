@@ -12,9 +12,9 @@ function NavbarContainer () {
     <>
         <Navbar bg="dark" data-bs-theme="dark" fixed="top" style={{paddingBottom: "1px"}} >
         <Container fluid>
-          <a href='#home'> <img src={logo} height="40px" width="40px"  alt='...'></img></a>
+          <a href='#home' className='logo'> <img src={logo} height="40px" width="40px"  alt='...'></img></a>
           
-          <Link className='nav-link' style={{color:'white', marginInlineStart:'0.5rem'}} to="/">Dino ta On</Link>
+          <Link className='nav-link' style={{color:'white', marginInlineStart:'0.5rem'}} to="/">Dino tá ON</Link>
           <Nav className="me-auto">
             <Link className='nav-link' to="/segundo">A CIDADE</Link>
             <Link className='nav-link' to="/events">EVENTOS</Link>

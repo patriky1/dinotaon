@@ -9,7 +9,7 @@ export function Eventos() {
       <NavbarContainer/>
         <Container fluid className="mt-5 ">
           
-            <h1>ola eventos</h1>
+            <h1 style={{padding:"3%"}}>EM DESENVOLVIMENTO</h1>
         </Container>
       </>
     );

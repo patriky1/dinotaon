@@ -1,3 +1,6 @@
+.logo{
+  padding: 3px;
+}
 .grid {
   position: relative;
   background-color:  #f9bd2f;
@@ -26,7 +29,7 @@
 }
 @media screen and (max-width: 600px) {
   .background {
-    background-image:url("./imagens/fundoMOB.jpeg");
+    display: none;
   }
 }
 .textogrid {
