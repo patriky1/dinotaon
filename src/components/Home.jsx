@@ -42,7 +42,8 @@ function Home() {
         </Row>
       </Container>
       <Container
-        style={{ background: "#edf1f4", border: "2px solid black" }}
+        className="cards"
+        style={{ background: "#edf1f4", border: "1px solid black" }}
         fluid
       >
         <Row>

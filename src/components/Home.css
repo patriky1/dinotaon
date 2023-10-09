@@ -1,8 +1,16 @@
 @media screen and (max-width: 600px) {
     .textogrid{
-      font-size: 30px;
+      font-size: 25px;
       width: 100%;
-      
+    }
+    .fontText{
+      font-size: 80px;
+    }
+    .carddino{
+      max-width: 90px;
+    }
+    .cards{
+      border-radius:2% ;
     }
 }
 .alinharButton{
@@ -12,14 +20,6 @@
 }
 .fontText{
   font-size: 150px;
-}
-@media screen and (max-width: 600px) {
-  .fontText{
-    font-size: 80px;
-  }
-  .carddino{
-    max-width: 90px;
-  }
 }
 .cardTitle{
   display: flex;

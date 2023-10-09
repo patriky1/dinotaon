@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from 'react-router-dom';
-
+import "./App.css"
 const renderImages = [
   {
     "image": require("./imagens/entrada.jpeg"),
@@ -44,9 +44,10 @@ function Slider() {
   return (
     <Carousel className="fristcarousel">
       {renderImages.map((slide) => (
-        <Carousel.Item key={slide.image}>
+        <Carousel.Item key={slide.image} >
           <img
-            style={{ width: "100%", height: "600px", objectFit: "cover" }}
+          className="sliderCard"
+            style={{ width: "100%", height: "600px", objectFit: "cover" ,border:"white"}}
             src={slide.image}
             alt="Slide"
           />

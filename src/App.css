@@ -90,3 +90,11 @@
     font-size: 90%!important;
   }
 }
+@media screen and (max-width: 600px) {
+  .sliderCard{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border-Radius:5%;
+  }
+}
