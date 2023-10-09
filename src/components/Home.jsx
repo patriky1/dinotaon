@@ -26,17 +26,17 @@ function Home() {
               passando, na oportunidade, a denominar-se Sousa, conhecida hoje
               por “cidade sorriso”.
             </p>
-            <div class="alinharButton">
+              <Link  style={{textDecoration:"none"}} to="/segundo" class="alinharButton" >
+            
               <Button
-                href="/segundo"
-                variant="dark"
                 size="lg"
+                variant="dark"
                 className="buttonone"
               >
-                {" "}
                 saiba mais
               </Button>
-            </div>
+            
+              </Link>
           </Col>
           <Col lg={7} xs={12} className="Lateral">
             <img className="background" src={fundo} alt="..."></img>
