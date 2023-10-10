@@ -3,7 +3,9 @@
 }
 .grid {
   position: relative;
-  background-color:  #f9bd2f;
+  background-color:  #F2D194;
+  padding-left: 0;
+  
   
   
 }
@@ -11,10 +13,10 @@
   padding: 0!important;
 }
 .legend{
-  margin: 5%;
+  
   text-align: justify;
-  font-size:larger;
-  text-indent: 3rem;
+  font-size:large;
+  text-indent: 4rem;
   
 }
 
