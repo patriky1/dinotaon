@@ -6,17 +6,27 @@
     .fontText{
       font-size: 80px;
     }
-    .carddino{
-      max-width: 90px;
-    }
+
     .cards{
-      border-radius:2% ;
+      border-radius:2%; 
     }
+    .grid{
+      border-radius: 2%;
+      justify-content: center;
+      
+    }
+    .card-img{
+      max-width: 70%;
+      justify-content: center;
+      margin: auto;
+    }
+   
 }
 .alinharButton{
   display: flex;
   justify-content: flex-end;
   margin-right: 2rem;
+  margin-bottom: 5%;
 }
 .fontText{
   font-size: 150px;
@@ -24,5 +34,14 @@
 .cardTitle{
   display: flex;
   justify-content: center;
-  
 }
+.card-img{
+  display: flex;
+  justify-content: center;
+  width: 5rem;
+  margin: auto;
+
+  margin-top: 8%;
+}
+
+

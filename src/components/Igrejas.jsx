@@ -20,7 +20,7 @@ function Igrejas() {
         <Row>
           <Col lg={6} className="ConteudoCity">
             <h1 className="textTitle">CENTROS RELIGIOSOS</h1>
-            <p className="textCity" >
+            <p className="textCity">
               {" "}
               Seja bem-vindo a uma jornada espiritual e arquitetônica nas ruas
               de Sousa, na acolhedora Paraíba. Esta cidade encantadora é um
@@ -32,7 +32,7 @@ function Igrejas() {
             <h3 className="textTitle ">
               Igreja Matriz de Nossa Sra. dos Remédios
             </h3>
-            <p className="textCity" >
+            <p className="textCity">
               Localizada na praça Bento Freire, mais conhecida como Praça da
               Matriz na cidade de Sousa-PB, teve sua construção iniciada em 1814
               pelo então vigário Luis José Correia de Sá e concluída em 1884. No
@@ -75,7 +75,13 @@ function Igrejas() {
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img className="imagens" src={imgIgreja} width="600px" height="400px" alt="sousa"></img>
+            <img
+              className="imagens"
+              src={imgIgreja}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
             <img
               className="imagens"
               src={imgIgreja1}
@@ -83,7 +89,16 @@ function Igrejas() {
               height="600px"
               alt="sousa"
             ></img>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31698.45663811373!2d-38.2823313374944!3d-6.73233975540068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45c07799e1e5f%3A0x34b5768f68aaaecf!2sIgreja%20Matriz%20de%20Nossa%20Senhora%20dos%20Rem%C3%A9dios!5e0!3m2!1spt-BR!2sbr!4v1696796095346!5m2!1spt-BR!2sbr" width="410" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="maps"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31698.45663811373!2d-38.2823313374944!3d-6.73233975540068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45c07799e1e5f%3A0x34b5768f68aaaecf!2sIgreja%20Matriz%20de%20Nossa%20Senhora%20dos%20Rem%C3%A9dios!5e0!3m2!1spt-BR!2sbr!4v1696796095346!5m2!1spt-BR!2sbr"
+              width="71%"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="maps"
+              className="mapAm"
+            ></iframe>
           </Col>
         </Row>
         <Row>
@@ -138,18 +153,49 @@ function Igrejas() {
               inspiração com fotos, informações sobre serviços religiosos e
               eventos especiais que fortalecerão sua fé e conexão espiritual.
             </p>
-            <p className="textCity" >
+            <p className="textCity">
               Igreja Nossa Senhora dos Remédios: @matrizdosremedios <br></br>
-              
             </p>
             <p className="textCity">
-            Igreja do Bom Jesus Eucarístico: @santuario.bomjesus<br></br><br></br><br></br>
+              Igreja do Bom Jesus Eucarístico: @santuario.bomjesus<br></br>
+              <br></br>
+              <br></br>
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img className="imagens" src={IgrejaBJ} width="600px" height="400px" alt="sousa"></img>
-            <img className="imagens" src={IntBJ} width="600px" height="400px" alt="sousa"></img>
-            <img className="imagens" src={prBJ} width="600px" height="400px" alt="sousa"></img>
+            <img
+              className="imagens"
+              src={IgrejaBJ}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagens"
+              src={IntBJ}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagens"
+              src={prBJ}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <div className="map">
+            <iframe
+              title="maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.092435994906!2d-38.23108412500506!3d-6.758582093238007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45bf91434b43b%3A0x5e4c1256a832d827!2sSantu%C3%A1rio%20Bom%20Jesus%20Eucar%C3%ADstico%20Aparecido!5e0!3m2!1spt-BR!2sbr!4v1696943905154!5m2!1spt-BR!2sbr"
+              width="71%"
+              height="450"
+              allowfullscreen="0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              className="mapAm"
+            ></iframe>
+            </div>
           </Col>
         </Row>
       </Container>

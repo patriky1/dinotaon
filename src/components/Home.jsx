@@ -10,7 +10,7 @@ function Home() {
     <>
       <Container fluid>
         <Row>
-          <Col lg={5} xs={12} className="grid">
+          <Col lg={5} xs={13} className="grid">
             <h1 className="textogrid">SOUSA - CIDADE SORRISO DA PARAÍBA</h1>
             <p className="legend">
               {" "}
@@ -42,24 +42,25 @@ function Home() {
         </Row>
       </Container>
       <Container
-        className="cards"
-        style={{ background: "#edf1f4", border: "1px solid black" }}
+        
+        style={{ background: "#FFFF" }}
         fluid
       >
-        <Row>
+        <Row >
           <Col className="d-flex justify-content-center">
             <Link to="/vale" style={{ textDecoration: "none" }}>
               <Card
                 className="carddino"
                 style={{
-                  width: "10rem",
+                  display:"flex",
+                  justifyContent:"center",
                   border: "none",
                   background: "transparent",
                 }}
               >
                 <Card.Img
-                  variant="top"
-                  src="https://cdn-icons-png.flaticon.com/512/1939/1939463.png"
+                  
+                  src="	https://cdn-icons-png.flaticon.com/128/7416/7416943.png"
                 />
                 <Card.Title className="cardTitle">TURISMO</Card.Title>
               </Card>
@@ -68,20 +69,30 @@ function Home() {
           <Col className="d-flex justify-content-center">
             <Link
               to="/igrejas"
-              style={{ color: "black", textDecoration: "none" }}
-            >
-              <span class="material-symbols-outlined fontText">church</span>
+              style={{ color: "black",
+              textDecoration: "none",
+              }}>
+              <Card
+              style={{border: "none",
+              background: "transparent"}}>
+              <Card.Img
+              src="https://cdn-icons-png.flaticon.com/128/2242/2242235.png"/>
               <Card.Title className="cardTitle">CULTURA</Card.Title>
+              </Card>
             </Link>
           </Col>
-
           <Col className="d-flex justify-content-center">
             <Link
               to="/centroc"
-              style={{ color: "black", textDecoration: "none" }}
-            >
-              <span class="material-symbols-outlined fontText">festival</span>
+              style={{ color: "black", textDecoration: "none" }}>
+              <Card
+              style={{border: "none",
+              background: "transparent"}}>
+              <Card.Img
+              src="	https://cdn-icons-png.flaticon.com/128/3019/3019220.png"
+              />
               <Card.Title className="cardTitle">EVENTOS</Card.Title>
+              </Card>
             </Link>
             
           </Col>
