@@ -4,8 +4,8 @@ import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
 import NavbarContainer from "./Navbar";
 import React from "react";
-import imgSG from "../imagens/SG.jpg"
-import imggruta from "../imagens/grutaSG.jpg"
+import imgSG from "../imagens/SG.jpg";
+import imggruta from "../imagens/grutaSG.jpg";
 
 function SaoGoncalo() {
   return (
@@ -57,12 +57,36 @@ function SaoGoncalo() {
               única de beleza natural, devoção religiosa e cultura sertaneja. Se
               você busca um refúgio sereno no coração do sertão paraibano, São
               Gonçalo em Sousa-PB é o lugar perfeito para se reconectar com a
-              natureza, a fé e a cultura regional.<br></br><br></br><br></br>
+              natureza, a fé e a cultura regional.<br></br>
+              <br></br>
+              <br></br>
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img className="imagens" src={imgSG} width="600px" height="400px" alt="sousa"></img>
-            <img className="imagens" src={imggruta} width="600px" height="400px" alt="sousa"></img>
+            <img
+              className="imagens"
+              src={imgSG}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagens"
+              src={imggruta}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15845.697312462258!2d-38.32322665057782!3d-6.839623490534653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a442a0089e4de3%3A0xb5c3e76c55d833c3!2zU8OjbyBHb27Dp2FsbywgU291c2EgLSBQQg!5e0!3m2!1spt-BR!2sbr!4v1696950181443!5m2!1spt-BR!2sbr"
+              width="410"
+              height="300"
+              allowfullscreen="0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="maps"
+              className="mapAm"
+            ></iframe>
           </Col>
         </Row>
       </Container>

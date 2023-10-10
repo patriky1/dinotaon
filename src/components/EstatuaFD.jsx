@@ -47,8 +47,30 @@ function EstatuaFD() {
             </p>
           </Col>
           <Col lg={6} className="imagens">
-            <img className="imagens" src={imgFD} width="600px" height="400px" alt="sousa"></img>
-            <img className="imagens" src={imgFD2} width="600px" height="600px" alt="sousa"></img>
+            <img
+              className="imagens"
+              src={imgFD}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagens"
+              src={imgFD2}
+              width="600px"
+              height="600px"
+              alt="sousa"
+            ></img>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.467832192306!2d-38.25509462490042!3d-6.712619293283133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45f21e8faa4b5%3A0xd73b002acb678a8b!2sEst%C3%A1tua-santu%C3%A1rio%20De%20Frei%20Dami%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1696950252647!5m2!1spt-BR!2sbr"
+              width="410"
+              height="300"
+              allowfullscreen="0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="maps"
+              className="mapAm"
+            ></iframe>
           </Col>
         </Row>
       </Container>
