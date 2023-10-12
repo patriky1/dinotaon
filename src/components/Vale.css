@@ -1,16 +1,11 @@
 
-.carousel2{
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-}
+
 .maps{
     
     position: relative;
     display: flex;
     justify-content: flex-start;
-    margin-left: 5%;
-    top: 7%;
+    top: 15%;
 }
 @media screen and (max-width: 600px){
     .maps{
@@ -22,4 +17,25 @@
         margin: 0;
         top: 7%;
     }
+    .imageCarousel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover; 
+        width: 90%;
+        
+    }
+    .carousel2{
+        width: 100%;
+        background-size: cover;
+    }
+   
+ 
+}
+.imageCarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    width: 740px;
 }

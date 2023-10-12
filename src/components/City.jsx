@@ -62,18 +62,19 @@ export function Page2() {
               e descubra tudo o que esta cidade incrível tem a oferecer.
             </p>
           </Col>
-          <Col lg={6} className="imagens">
+          <Col lg={6}>
             <img
               className="imagens"
               src={imgCity}
-              width="800px"
+              width="600px"
               height="400px"
               alt="Imagem de Sousa"
             />
             <video
+              
               className="imagens"
               src={VideoSousa}
-              width="800px" 
+              width="600px" 
               height="auto"
               alt="Vídeo de Sousa"
               autoPlay
@@ -81,8 +82,9 @@ export function Page2() {
               loop
             ></video>
             <iframe
+            className="mapAm"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.081447843049!2d-38.23533012031097!3d-6.759922775798044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45b8f7960d423%3A0x59341a5e4cf7045e!2sSousa%2C%20Para%C3%ADba%20-%20BR!5e0!3m2!1spt-BR!2sbr!4v1696876675920!5m2!1spt-BR!2sbr"
-              width="410"
+              width="600"
               height="300"
               allowfullscreen="0"
               loading="lazy"

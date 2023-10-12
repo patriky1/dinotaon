@@ -1,0 +1,63 @@
+.ConteudoCity{
+    width: 50%;
+    text-align: justify;
+    font-size: 10%;
+    text-indent: 3rem;
+    margin-top: 5%;
+}
+
+.textCity {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+  }
+  .imagemM{
+    position: relative;
+    margin-top: 5%;
+    padding: 0;
+    
+    
+  }
+  @media screen and (max-width: 600px) {
+    .imagemM{
+    margin-bottom: 2%;
+    left: 0;
+    width:100%;
+      
+    } 
+    .textTitle{
+        text-align:justify;
+        margin: 0;
+        font-size:25px;
+        margin-bottom: 5%;
+    } 
+  }
+@media screen and (max-width: 600px) {
+    .ConteudoCity {
+      width: 100%;
+      font-size: 8%;
+      text-indent: 1rem;
+    }
+  }
+  
+  /* Media query para a classe .textCity */
+  @media screen and (max-width: 600px) {
+    .textCity {
+      font-size: 16px;
+    }
+  }
+  
+  /* Media query para a classe .imagens */
+  @media screen and (max-width: 600px) {
+    .imagens {
+      position:relative;
+    width: 100%;
+      
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .mapAm{
+    width: 94%!important;
+      
+    }
+  }

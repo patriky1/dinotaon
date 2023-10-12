@@ -53,16 +53,17 @@ function CC() {
             </p>
 
           </Col>
-          <Col lg={6} className="imagens">
+          <Col lg={6} style={{marginTop:"5%"}} >
             <img className="imagens" src={Cc} width="600px" height="400px" alt="sousa"></img>
             <img className="imagens" src={Cc1} width="600px" height="400px" alt="sousa"></img>
             
             <iframe
+              
               title="map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.0918690319436!2d-38.23426462031118!3d-6.758651275802515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45bf91e8841d1%3A0x24882822f3103a78!2sCentro%20Cultural%20Banco%20do%20Nordeste%20-%20CCBNB%20Sousa!5e0!3m2!1spt-BR!2sbr!4v1696882543462!5m2!1spt-BR!2sbr"
-              width="410"
+              width="600"
               height="300"
-              style={{margin:"2px"}}
+              style={{marginTop:"2%"}}
               allowfullscreen="0"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"

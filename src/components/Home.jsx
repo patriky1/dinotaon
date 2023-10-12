@@ -10,9 +10,9 @@ function Home() {
     <>
       <Container fluid>
         <Row>
-        <Col lg={12} xs={12} className="Lateral">
+          <Col lg={12} xs={12} className="Lateral">
             <img
-              style={{ margin:"0" }}
+              style={{ margin: "0" }}
               className="background"
               src={fundo}
               alt="..."
@@ -20,18 +20,21 @@ function Home() {
           </Col>
           <Col lg={12} xs={13} className="grid">
             {/* <h1 className="textogrid">SOUSA - CIDADE SORRISO DA PARAÍBA</h1> */}
-            <p className="legend" style={{ marginTop:"5%"}}>
+            <p className="legend" style={{ marginTop: "7%", margin: "3%" }}>
               {" "}
-              <span style={{fontSize:"larger"}} className="highlight">Sousa</span>, carinhosamente conhecida como a "Cidade Sorriso", é um
+              <span style={{ fontSize: "larger" }} className="highlight">
+                Sousa
+              </span>
+              , carinhosamente conhecida como a "Cidade Sorriso", é um
               verdadeiro tesouro no coração do estado da Paraíba, no nordeste do
               Brasil. Localizada no Sertão paraibano, Sousa combina a beleza
               natural do semiárido com uma atmosfera vibrante e acolhedora. A
-              cidade também é famosa por abrigar um verdadeiro tesouro
+              cidade também é famosa por abrigar um valioso tesouro
               pré-histórico: o Vale dos Dinossauros. Com sua rica herança
               paleontológica, o município é um destino imperdível para os
               amantes da história da Terra. Bem-vindo a Sousa, onde o sorriso de
-              suas pessoas e os segredos dos dinossauros se encontram em um
-              cenário verdadeiramente especial.
+              sua gente e os segredos dos dinossauros se encontram em um cenário
+              verdadeiramente especial.
             </p>
             <Link
               style={{ textDecoration: "none" }}
@@ -43,7 +46,6 @@ function Home() {
               </Button>
             </Link>
           </Col>
-          
         </Row>
       </Container>
       <Container style={{ background: "#FFFF" }} fluid>

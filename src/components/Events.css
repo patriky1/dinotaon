@@ -1,0 +1,49 @@
+.cardEvent{
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+    margin: 3%;
+}
+.imageCard{
+    width: 600px;
+
+}
+.cardImg {
+    display: flex;
+    
+    
+}
+.cardTitleEvent{
+    display: flex;
+    justify-content: center;
+  }
+  Button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    .cardEvent{
+        width: 90%;
+        height: 20%;
+        justify-content: center;
+        display: flex;
+        margin-top: 2%;
+        margin: 3%;
+    }
+    .cardImg {
+        display: flex;
+        width: 300px!important;
+        height: 400px;
+        
+        
+    }
+  }
+  .btn-close{
+    justify-content: flex-start;
+   margin-right: 5%!important;
+  }
