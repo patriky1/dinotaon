@@ -1,41 +1,41 @@
+.maps {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  top: 15%;
+}
+.imageCarousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  width: 740px;
+}
 
-
-.maps{
-    
+@media screen and (max-width: 600px) {
+  .maps {
     position: relative;
     display: flex;
     justify-content: flex-start;
-    top: 15%;
-}
-@media screen and (max-width: 600px){
-    .maps{
-    
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 5%;
-        margin: 0;
-        top: 7%;
-    }
-    .imageCarousel{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-size: cover; 
-        width: 90%;
-        
-    }
-    .carousel2{
-        width: 100%;
-        background-size: cover;
-    }
-   
- 
-}
-.imageCarousel{
+    margin-left: 5%;
+    margin: 0;
+    top: 7%;
+  }
+  .imageCarousel {
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
-    width: 740px;
+    width: 100%; /* Altere para 100% */
+    height: 420px; /* Adicione esta linha */
+    max-height: 300px; /* Ajuste a altura máxima conforme necessário */
+    object-fit: contain;
+  }
+  .carousel2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    object-fit: contain;
+  }
 }

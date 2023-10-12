@@ -58,7 +58,7 @@ function MemorialAM() {
             />
 
             <iframe
-              className="mapAm"
+              className="mapMA"
               title="map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.0843509123983!2d-38.23436102500508!3d-6.75956859323707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45bf87b8bf1f3%3A0xdc35ad7cc58a765f!2sMemorial%20Ant%C3%B4nio%20Mariz!5e0!3m2!1spt-BR!2sbr!4v1696876016474!5m2!1spt-BR!2sbr"
               width="600px"

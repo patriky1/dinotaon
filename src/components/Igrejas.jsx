@@ -89,13 +89,12 @@ function Igrejas() {
               <Col style={{flex:"0"}}>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/2175/2175198.png"
-                
                 alt="instagram"
                 className="instagram"
               />
               </Col>
               <Col>
-              <p style={{ fontSize: "20px", marginTop:"1%"}}>
+              <p className="instaName" style={{ fontSize: "18px", marginTop:"2%"}}>
                 @matrizdosremedios
               </p>
               </Col>
@@ -125,7 +124,7 @@ function Igrejas() {
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               title="maps"
-              className="mapAm"
+              className="mapIgrejas"
             ></iframe>
           </Col>
         </Row>
@@ -211,7 +210,7 @@ function Igrejas() {
               />
               </Col>
               <Col>
-              <p style={{ fontSize: "20px", marginTop:"1%",}}>
+              <p className="instaName" style={{ fontSize: "18px", marginTop:"2%",}}>
               @santuario.bomjesus
               </p>
               </Col>
@@ -248,7 +247,7 @@ function Igrejas() {
                 allowfullscreen="0"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                className="mapAm"
+                className="mapIgrejas"
               ></iframe>
             </div>
           </Col>

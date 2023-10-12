@@ -13,11 +13,14 @@
   }
   .imagemM{
     position: relative;
-    margin-top: 5%;
+    margin-top: 15%;
     padding: 0;
     
     
   }
+.mapMA{
+  margin-top: 2%;
+}
   @media screen and (max-width: 600px) {
     .imagemM{
     margin-bottom: 2%;
@@ -56,8 +59,9 @@
     }
   }
   @media screen and (max-width: 600px) {
-    .mapAm{
-    width: 94%!important;
+    .mapMA{
+    width: 100%;
+    margin-bottom: 2%!important;
       
     }
   }

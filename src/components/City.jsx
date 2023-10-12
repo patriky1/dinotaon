@@ -5,27 +5,37 @@ import NavbarContainer from "./Navbar";
 
 import imgCity from "../imagens/imgfundo.jpeg";
 import VideoSousa from "../imagens/fundo.mp4";
-import aspas from "../imagens/aspas.svg";
 export function Page2() {
   return (
     <>
       <NavbarContainer />
       <Container fluid className="mt-5">
-        <Row>
-          <h1 className="textTitle">A Cidade</h1>
-          <p className="cardImage">
-            <img className="Aspas" alt="aspas" src={aspas}></img>
-            <br></br>
-            <p className="Apresentation">
-              Bem-vindo à encantadora cidade de Sousa, um tesouro no coração da
-              Paraíba!<br></br> Sousa, carinhosamente conhecida como "Terra dos
-              Dinossauros", é um destino único que combina história, cultura,
-              esportes e um rico patrimônio paleontológico.
-            </p>
-          </p>
+        <Row >
+         
         </Row>
         <Row>
           <Col lg={6} className="ConteudoCity">
+
+
+          <h1 className="textTitle">A Cidade</h1>
+          <p className="cardImage " >
+          <video
+              
+              className="video"
+              src={VideoSousa}
+               
+              height="auto"
+              alt="Vídeo de Sousa"
+              autoPlay
+              muted
+              loop
+
+            ></video>
+            <p style={{fontSize:"10px"}}> fonte: @joaonetodrones_pb</p>
+            
+          </p>
+
+
             <p className="textCity">
               <span className="highlight">Fundada em 1854</span>, Sousa é uma
               das cidades mais antigas do interior da Paraíba. Seu centro
@@ -70,22 +80,12 @@ export function Page2() {
               height="400px"
               alt="Imagem de Sousa"
             />
-            <video
-              
-              className="imagens"
-              src={VideoSousa}
-              width="600px" 
-              height="auto"
-              alt="Vídeo de Sousa"
-              autoPlay
-              muted
-              loop
-            ></video>
+            
             <iframe
-            className="mapAm"
+            className="mapCity"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.081447843049!2d-38.23533012031097!3d-6.759922775798044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45b8f7960d423%3A0x59341a5e4cf7045e!2sSousa%2C%20Para%C3%ADba%20-%20BR!5e0!3m2!1spt-BR!2sbr!4v1696876675920!5m2!1spt-BR!2sbr"
               width="600"
-              height="300"
+              height="400"
               allowfullscreen="0"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
