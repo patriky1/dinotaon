@@ -3,12 +3,44 @@
   margin: 0;
   padding: 0;
 }
-.imagens {
+.imgIgreja {
   justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
-  margin-top: 2%;
+  margin-top: 20%;
+  }
+.imgMatriz{
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 15%; 
+}
+@media screen and (max-width: 600px) {
+  .imgIgreja  {
+  position:relative;
+  width: 100%;
+    
+  }
+  .imgMatriz{
+    position:relative;
+    width: 100%;
+  }
+  .imgMatriz2{
+    position:relative;
+    width: 100%;
+  }
+}
+.imgMatriz2{
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 5%; 
+}
+.textTitle2{
+  margin-top: 10%;
 }
 .textTitle {
   font-size: 30px;
@@ -17,21 +49,26 @@
   margin-top: 2%;
 }
 .mapIgrejas {
-  margin-top: 15%;
+  margin-top: 5%;
 }
+.instaName{
+  margin-left: -3%;
+  
+
+}
+
 @media screen and (max-width: 600px) {
   .mapIgrejas {
+    margin-top: 5%;
     width: 100%;
     height: 400px;
     justify-content: center;
   }
   .instagram {
-    width: 40px;
+    width: 30px;
   }
   .instaName{
     margin-left: -30px!important;
+    
   }
-}
-.instaName{
-  margin-left: -3%;
 }

@@ -45,7 +45,6 @@
     }
   }
   
-  /* Media query para a classe .imagens */
   @media screen and (max-width: 600px) {
     .imagens {
       position:relative;

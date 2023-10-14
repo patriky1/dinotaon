@@ -11,12 +11,12 @@ const renderImages = [
   {
     "image": require("./imagens/igreja.jpg"),
     "title": "IGREJA MATRIZ",
-    "route": '/igrejas',
+    "route": '/igrejaM',
   },
   {
     "image": require("./imagens/igrejaBJ.jpg"),
     "title": "IGREJA BOM JESUS",
-    "route": '/igrejas',
+    "route": '/igrejaBJ',
   },
   {
     "image": require("./imagens/Cc.jpg"),

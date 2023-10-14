@@ -68,7 +68,7 @@ function Home() {
           </Col>
           <Col className="d-flex justify-content-center">
             <Link
-              to="/igrejas"
+              to="/igrejaM"
               style={{ color: "black", textDecoration: "none" }}
             >
               <Card style={{ border: "none", background: "transparent" }}>
