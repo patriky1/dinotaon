@@ -21,7 +21,7 @@ function NavbarContainer() {
         bg="dark"
         data-bs-theme="dark"
         fixed="top"
-        style={{ paddingBottom: "1px" }}
+        style={{ paddingBottom: "1px", fontSize:"15px" }}
       >
         <Container fluid>
           <a href="#home" className="logo">
