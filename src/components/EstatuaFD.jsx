@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
 import NavbarContainer from "./Navbar";
 import React from "react";
-import imgFD from "../imagens/FREIDM.jpeg";
+// import imgFD from "../imagens/FREIDM.jpeg";
 import imgFD2 from "../imagens/FD2.jpeg";
 import imgFD3 from "../imagens/EstFD/1.jpeg";
 import imgFD4 from "../imagens/EstFD/2.jpeg";
@@ -56,13 +56,13 @@ function EstatuaFD() {
             </p>
           </Col>
           <Col lg={6} >
-            <img
+            {/* <img
               className="imagensFD"
               src={imgFD}
               width="600px"
               height="400px"
               alt="sousa"
-            ></img>
+            ></img> */}
             <img
               className="imagensFD"
               src={imgFD2}

@@ -34,7 +34,7 @@ const renderImages = [
     "route": '/memorial',
   },
   {
-    "image": require("./imagens/FREIDM.jpeg"),
+    "image": require("./imagens/EstFD/1.jpeg"),
     "title": "ESTÁTUA FREI DAMIÃO",
     "route": '/EstFD',
   },

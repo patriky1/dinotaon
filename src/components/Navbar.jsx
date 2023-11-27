@@ -70,7 +70,7 @@ function NavbarContainer() {
               </Modal.Header>
               <Modal.Body>
                   Patriky Lucena de Brito<br></br>
-                  Mayara Teixiera Santos de Lima <br></br>
+                  Mayara Teixeira Santos de Lima <br></br>
                   1º Ano E - Tec<br></br>
                   2º Ano D - Tec<br></br>
               </Modal.Body>
