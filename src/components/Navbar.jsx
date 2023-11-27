@@ -69,10 +69,10 @@ function NavbarContainer() {
                 <Modal.Title>Desenvolvendores</Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                  Patriky Brito<br></br>
-                  Mayara Lima <br></br>
-                  Rafaela Silva<br></br>
-                  Jamilly Rodrigues<br></br>
+                  Patriky Lucena de Brito<br></br>
+                  Mayara Teixiera Santos de Lima <br></br>
+                  1º Ano E - Tec<br></br>
+                  2º Ano D - Tec<br></br>
               </Modal.Body>
               <Modal.Footer>
                 

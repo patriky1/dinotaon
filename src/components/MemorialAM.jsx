@@ -4,7 +4,9 @@ import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
 import NavbarContainer from "./Navbar";
 import MAM from "../imagens/MAM.jpeg";
-
+import MAM1 from "../imagens/MemAM/1.jpeg";
+import MAM2 from "../imagens/MemAM/2.jpeg";
+import MAM3 from "../imagens/MemAM/3.jpeg";
 import React from "react";
 
 function MemorialAM() {
@@ -52,6 +54,27 @@ function MemorialAM() {
             <img
               className="imagemM"
               src={MAM}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            />
+            <img
+              className="imagemM"
+              src={MAM1}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            />
+            <img
+              className="imagemM"
+              src={MAM2}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            />
+            <img
+              className="imagemM"
+              src={MAM3}
               width="600px"
               height="400px"
               alt="sousa"

@@ -6,6 +6,12 @@ import NavbarContainer from "./Navbar";
 import React from "react";
 import imgSG from "../imagens/SG.jpg";
 import imggruta from "../imagens/grutaSG.jpg";
+import Img1 from "../imagens/SG/1.jpeg";
+import Img2 from "../imagens/SG/2.jpeg";
+import Img3 from "../imagens/SG/3.jpeg";
+import Img4 from "../imagens/SG/4.jpeg";
+import Img5 from "../imagens/SG/5.jpeg";
+import Img6 from "../imagens/SG/6.jpeg";
 
 function SaoGoncalo() {
   return (
@@ -85,6 +91,50 @@ function SaoGoncalo() {
               height="400px"
               alt="sousa"
             ></img>
+            <img
+              className="imagensSG"
+              src={Img1}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagensSG"
+              src={Img2}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagensSG"
+              src={Img3}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagensSG"
+              src={Img4}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagensSG"
+              src={Img5}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+
+            <img
+              className="imagensSG"
+              src={Img6}
+              width="600px"
+              height="400px"
+              alt="sousa"
+            ></img>
+
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15845.697312462258!2d-38.32322665057782!3d-6.839623490534653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a442a0089e4de3%3A0xb5c3e76c55d833c3!2zU8OjbyBHb27Dp2FsbywgU291c2EgLSBQQg!5e0!3m2!1spt-BR!2sbr!4v1696950181443!5m2!1spt-BR!2sbr"
               width="600"

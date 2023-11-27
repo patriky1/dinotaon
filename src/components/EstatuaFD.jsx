@@ -6,6 +6,9 @@ import NavbarContainer from "./Navbar";
 import React from "react";
 import imgFD from "../imagens/FREIDM.jpeg";
 import imgFD2 from "../imagens/FD2.jpeg";
+import imgFD3 from "../imagens/EstFD/1.jpeg";
+import imgFD4 from "../imagens/EstFD/2.jpeg";
+import imgFD5 from "../imagens/EstFD/3.jpeg";
 
 function EstatuaFD() {
   return (
@@ -63,6 +66,27 @@ function EstatuaFD() {
             <img
               className="imagensFD"
               src={imgFD2}
+              width="600px"
+              height="600px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagensFD"
+              src={imgFD3}
+              width="600px"
+              height="600px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagensFD"
+              src={imgFD4}
+              width="600px"
+              height="600px"
+              alt="sousa"
+            ></img>
+            <img
+              className="imagensFD"
+              src={imgFD5}
               width="600px"
               height="600px"
               alt="sousa"
