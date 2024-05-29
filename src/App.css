@@ -1,5 +1,9 @@
 .logo{
   padding: 3px;
+  
+}
+.logo img{ 
+  margin-bottom: 5px;
 }
 .grid {
   position: relative;

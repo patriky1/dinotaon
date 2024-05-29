@@ -10,6 +10,7 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
+
 function NavbarContainer() {
   const [show, setShow] = useState(false);
 
@@ -26,16 +27,16 @@ function NavbarContainer() {
         <Container fluid>
           <a href="#home" className="logo">
             {" "}
-            <img src={logo} height="40px" width="40px" alt="..."></img>
+            <img src={logo} height="40px" width="120px" alt="..."></img>
           </a>
 
-          <Link
+          {/* <Link
             className="nav-link"
             style={{ color: "white", marginInlineStart: "0.5rem" }}
             to="/"
           >
-            Dino tá ON
-          </Link>
+            SOUSA TOUR
+          </Link> */}
           <Nav className="me-auto">
             <Link className="nav-link " to="/segundo">
               A CIDADE
@@ -46,6 +47,7 @@ function NavbarContainer() {
             <Link className="nav-link " to="/news">
               NOTICIAS
             </Link>
+          
           </Nav>
           <Nav>
             <Button variant="outline-dark"
@@ -70,9 +72,9 @@ function NavbarContainer() {
               </Modal.Header>
               <Modal.Body>
                   Patriky Lucena de Brito<br></br>
-                  Mayara Teixeira Santos de Lima <br></br>
-                  1º Ano E - Tec<br></br>
-                  2º Ano D - Tec<br></br>
+                  Lucas soares da Silva<br></br>
+                  Jefferson Ferreira da Silva<br></br>
+                  Alessandro Dualamo Soares Alves<br></br>
               </Modal.Body>
               <Modal.Footer>
                 

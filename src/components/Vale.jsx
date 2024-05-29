@@ -117,7 +117,7 @@ function Vale() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.3070761897397!2d-38.2643066249001!3d-6.732340193263781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a45eed2deb7a57%3A0x711b0ac0770d555b!2sVale%20dos%20Dinossauros!5e0!3m2!1spt-BR!2sbr!4v1696949877939!5m2!1spt-BR!2sbr"
               width="740"
               height="400"
-              allowfullscreen="0"
+              allowfullscreen="0" 
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               title="maps"

@@ -19,7 +19,6 @@ import MemorialAM from './components/MemorialAM';
 import EstatuaFD from './components/EstatuaFD';
 
 
-
 const router = createBrowserRouter([
   {
       path: "/",
@@ -65,6 +64,8 @@ const router = createBrowserRouter([
     path: "/EstFD",
     element: <EstatuaFD/>,
   },
+ 
+  
 
 ]);
 
