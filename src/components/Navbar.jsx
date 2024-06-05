@@ -25,10 +25,10 @@ function NavbarContainer() {
         style={{ paddingBottom: "1px", fontSize:"15px" }}
       >
         <Container fluid>
-          <a href="#home" className="logo">
+          <Link href="#home" className="logo" to="/">
             {" "}
             <img src={logo} height="40px" width="120px" alt="..."></img>
-          </a>
+          </Link>
 
           {/* <Link
             className="nav-link"
